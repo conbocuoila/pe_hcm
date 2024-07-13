@@ -1,0 +1,22 @@
+.wrapper__dashboard {
+  .box-confirm {
+    width: 100%;
+    position: fixed;
+    top: 100%;
+    background-color: rgba(#ccc, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content-main {
+      width: 400px;
+      background-color: #fff;
+      border-radius: 20px;
+      text-align: center;
+    }
+    &.active {
+        transition: all 0.3s;
+      top: 0;
+    }
+  }
+}
